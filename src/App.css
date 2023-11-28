@@ -23,11 +23,60 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: #282c34 0px 1px 5px;
+}
+.img-wrapper img {
+  width: 100px;
+  margin-top: -10px;
+}
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 1px solid white;
+  margin-left: 10%;
+}
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-car img {
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  left: 1%;
+}
 .App-link {
   color: #61dafb;
 }
+.cart-count {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
 
+button.remove-cart-btn {
+  background-color: rebeccapurple;
+  margin-top: 8px;
+}
+.item {
+  padding: 14px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
